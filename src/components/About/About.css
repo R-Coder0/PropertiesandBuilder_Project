@@ -1,0 +1,531 @@
+/* AboutPage.css */
+
+.about-page {
+  font-family: 'Arial, sans-serif';
+  background-color: #f4f4f4; /* Light background for contrast */
+}
+
+.header {
+  position: relative;
+  height: 400px;
+
+  background-size: cover;
+  background-position: center;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.6); /* Slightly darker overlay */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 0 10px;
+  transition: background 0.3s ease; /* Animation for overlay */
+}
+
+.overlay:hover {
+  background: rgba(0, 0, 0, 0.144); /* Darker on hover */
+}
+
+.overlay h1 {
+  font-size: 3rem;
+  margin: 0;
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
+}
+
+.overlay p {
+  font-size: 1.2rem;
+  margin-top: 10px;
+  opacity: 0.9; /* Slight transparency */
+}
+
+.content {
+  padding: 40px 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+  background-color: #fff; /* White background for content */
+  border-radius: 10px; /* Rounded corners */
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+.story-section {
+  display: flex;
+  align-items: center;
+  margin-bottom: 40px;
+  margin-top: -80px;
+  transition: transform 0.3s; /* Add animation */
+}
+
+.story-section:hover {
+  transform: scale(1.02); /* Slight zoom on hover */
+}
+
+.story-image {
+  flex: 1;
+  padding-right: 20px;
+}
+
+.story-image img {
+  height: 28rem;
+  width: 354px;
+  border-radius: 0 50px 0 50px;
+  margin-top: 69px;
+  box-shadow: 0 6px 9px rgba(0, 0, 0, 0.3);
+  transition: transform 0.3s; /* Add animation */
+}
+
+.story-image img:hover {
+  transform: scale(1.05); /* Slight zoom on hover */
+}
+
+.story-content {
+  flex: 2;
+  padding-left: 20px;
+}
+
+.story-content h2 {
+  font-size: 2.5rem;
+  color: #333;
+  margin-bottom: 20px;
+  position: relative;
+  text-align: left;
+  animation: fadeIn 0.5s ease; /* Fade-in animation */
+}
+
+.story-content p {
+  font-size: 1.2rem;
+  line-height: 1.6;
+  color: #666;
+  margin-bottom: 20px;
+  text-align: left;
+}
+
+.sub-points {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.sub-point {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.sub-point img {
+  width: 50px;
+  height: 50px;
+  transition: transform 0.3s;
+}
+
+.sub-point img:hover {
+  transform: rotate(15deg); /* Rotate on hover */
+}
+
+.sub-point h3 {
+  font-size: 1.5rem;
+  color: #333;
+  margin: 0;
+}
+
+.sub-point p {
+  font-size: 1rem;
+  color: #666;
+  margin: 5px 0 0;
+}
+
+section {
+  margin-bottom: 40px;
+}
+
+h2 {
+  font-size: 2.5rem;
+  color: #333;
+  margin-bottom: 20px;
+  position: relative;
+  text-align: center;
+}
+
+p {
+  font-size: 1.2rem;
+  line-height: 1.6;
+  color: #fff; /* Changed to dark gray for better contrast */
+}
+
+.team-members {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+.team-member {
+  text-align: center;
+  flex: 1 1 200px;
+  max-width: 240px;
+  border: 1px solid #ddd;
+  padding: 5px;
+  border-radius: 10px; /* Rounded corners */
+  background: #fff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15); /* Softer shadow */
+  transition: transform 0.3s;
+}
+
+.team-member:hover {
+  transform: translateY(-5px); /* Lift effect on hover */
+}
+
+.team-member img {
+  width: 100%;
+  border-radius: 50%;
+  margin-bottom: 15px;
+}
+
+.team-member h3 {
+  font-size: 1.5rem;
+  color: #333;
+  margin: 10px 0 5px;
+}
+
+.team-member p {
+  font-size: 1rem;
+  color: #666;
+  margin: 5px 0;
+}
+
+.statistics {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 50px;
+  padding: 20px 0;
+  background-color: #38ada999; /* Light pink background */
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(10, 5, 8, 0.2);
+}
+
+.stat {
+  text-align: center;
+  font-size: 40px;
+  font-weight: bold;
+  color: black;
+}
+
+.stat h3 {
+  font-size: 1rem;
+  color: #333;
+  margin-bottom: 5px;
+}
+
+.stat p {
+  font-size: 1rem;
+  color: #38ADA9; /* Consistent accent color */
+}
+
+.approach-section {
+  display: flex;
+  align-items: center;
+  margin-top: 50px;
+}
+
+.approach-content {
+  flex: 2;
+  padding-right: 20px;
+  margin-left: 20px; /* Reduced margin for better responsiveness */
+}
+
+.approach-content h2 {
+  font-size: 2.5rem;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.approach-content blockquote {
+  font-size: 1.5rem;
+  font-style: italic;
+  color: #666;
+  margin-bottom: 20px;
+  border-left: 5px solid #38ADA9;
+  padding-left: 15px;
+}
+
+.approach-content .highlight {
+  background: #38ADA9; /* Light highlight background */
+  padding: 10px 15px;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+
+.approach-content .highlight p {
+  font-size: 1rem;
+  color: #333;
+  margin: 0;
+}
+
+.approach-content p {
+  font-size: 1.2rem;
+  line-height: 1.6;
+  color: #666;
+}
+
+.approach-image {
+  flex: 1;
+  animation: fadeIn 0.5s ease; /* Fade-in animation */
+}
+
+.approach-image img {
+  width: 100%; /* Make responsive */
+  border-radius: 10px;
+  height: auto; /* Adjust height */
+}
+
+/* Animations */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+/* Media Queries */
+
+@media screen and (max-width: 1024px) {
+  .team-member {
+    flex: 1 1 300px;
+    max-width: 300px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .header {
+    height: 300px;
+  }
+
+  .overlay h1 {
+    font-size: 2.5rem;
+  }
+
+  .overlay p {
+    font-size: 1rem;
+  }
+
+  .content {
+    padding: 20px;
+  }
+
+  .story-section {
+    flex-direction: column;
+    align-items: center;
+    margin-right: 0;
+    margin-left: 0;
+    margin-top: -40px;
+  }
+
+  .story-image img {
+    height: auto;
+    width: 100%;
+    border-radius: 10px;
+    margin-top: 20px;
+    box-shadow: 0px 6px 9px rgba(0, 0, 0, 0.3);
+  }
+
+  .story-content {
+    padding-left: 0;
+    text-align: center;
+  }
+
+  .story-content h2 {
+    text-align: center;
+  }
+
+  .sub-points {
+    gap: 15px;
+    margin-top: 20px;
+  }
+
+  .statistics {
+    flex-direction: column;
+    align-items: center;
+    margin-top: 30px;
+  }
+
+  .stat {
+    flex: 1 1 auto;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+
+  .approach-section {
+    flex-direction: column; /* Stack elements vertically */
+    align-items: center; /* Center align */
+    margin-top: 30px; /* Adjust margin */
+    text-align: center; /* Center text */
+  }
+
+  .approach-content {
+    flex: 1; /* Allow full width */
+    padding: 20px; /* Add padding */
+    margin-left: 0; /* Remove left margin */
+  }
+
+  .approach-content h2 {
+    font-size: 1.8rem; /* Responsive font size */
+    margin-bottom: 10px; /* Adjust spacing */
+  }
+
+  .approach-content blockquote {
+    font-size: 1rem; /* Adjust font size */
+    margin-bottom: 15px; /* Add spacing */
+    border-left: 5px solid #38ADA9; /* Keep highlight */
+    padding-left: 10px; /* Adjust padding */
+  }
+
+  .approach-content .highlight {
+    background: #38ADA9; /* Light highlight */
+    padding: 10px;
+    border-radius: 5px; /* Rounded corners */
+    margin-bottom: 15px; /* Add spacing */
+  }
+
+  .approach-content .highlight p {
+    font-size: 0.9rem; /* Adjust font size */
+    color: #333; /* Text color */
+    margin: 0; /* Remove margin */
+  }
+
+  .approach-image {
+    flex: 1;
+    margin-top: 20px; /* Add space above */
+  }
+
+  .approach-image img {
+    width: 100%; /* Make image responsive */
+    border-radius: 10px; /* Rounded corners */
+    height: auto; /* Adjust height */
+  }
+
+}
+
+@media screen and (max-width: 576px) {
+  .header {
+    height: 200px;
+  }
+
+  .overlay h1 {
+    font-size: 2rem;
+  }
+
+  .overlay p {
+    font-size: 1rem;
+  }
+
+  .story-image img {
+    height: auto;
+    width: 100%;
+    border-radius: 10px;
+    margin-top: 10px;
+  }
+
+  .story-content h2 {
+    font-size: 1.8rem;
+  }
+
+  .sub-point img {
+    width: 40px;
+    height: 40px;
+  }
+
+  .sub-point h3 {
+    font-size: 1.3rem;
+  }
+
+  .sub-point p {
+    font-size: 0.9rem;
+  }
+
+  .team-member {
+    flex: 1 1 250px;
+    max-width: 250px;
+  }
+
+  .team-member h3 {
+    font-size: 1.3rem;
+  }
+
+  .team-member p {
+    font-size: 0.9rem;
+  }
+
+  .statistics .stat {
+    font-size: 30px;
+  }
+
+  .statistics .stat h3 {
+    font-size: 0.9rem;
+  }
+
+  .statistics .stat p {
+    font-size: 0.9rem;
+  }
+
+  .approach-section {
+    flex-direction: column; /* Stack elements vertically */
+    align-items: center; /* Center align */
+    margin-top: 30px; /* Adjust margin */
+    text-align: center; /* Center text */
+  }
+
+  .approach-content {
+    flex: 1; /* Allow full width */
+    padding: 20px; /* Add padding */
+    margin-left: 0; /* Remove left margin */
+  }
+
+  .approach-content h2 {
+    font-size: 1.8rem; /* Responsive font size */
+    margin-bottom: 10px; /* Adjust spacing */
+  }
+
+  .approach-content blockquote {
+    font-size: 1rem; /* Adjust font size */
+    margin-bottom: 15px; /* Add spacing */
+    border-left: 5px solid #38ADA9; /* Keep highlight */
+    padding-left: 10px; /* Adjust padding */
+  }
+
+  .approach-content .highlight {
+    background: #38ADA9; /* Light highlight */
+    padding: 10px;
+    border-radius: 5px; /* Rounded corners */
+    margin-bottom: 15px; /* Add spacing */
+  }
+
+  .approach-content .highlight p {
+    font-size: 0.9rem; /* Adjust font size */
+    color: #333; /* Text color */
+    margin: 0; /* Remove margin */
+  }
+
+  .approach-image {
+    flex: 1;
+    margin-top: 20px; /* Add space above */
+  }
+
+  .approach-image img {
+    width: 100%; /* Make image responsive */
+    border-radius: 10px; /* Rounded corners */
+    height: auto; /* Adjust height */
+  }
+}
