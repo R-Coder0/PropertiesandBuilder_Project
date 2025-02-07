@@ -69,14 +69,16 @@ const ContactPage = () => {
         </div>
         <div className="contact-details">
           <h2>Contact Details</h2>
-          <p><strong>Address:</strong> C-32, Balaji Mandir Rd, Deep Vihar, Sector-24, Rohini, De, Delhi, 110042</p>
-          <p><strong>Phone:</strong> <a href="tel:+919643121121">+91 964-312-1121</a></p>
+          <p><strong>Head Office:</strong>  C-32, Balaji Mandir Road, Deep Vihar, Sector-24, Rohini, Delhi, 110042</p>
+          <p><strong>Branch Office:</strong> Hargovind Vihar, Rohini Sector-4</p>
+          <p><strong>Phone:</strong> <a href="tel:+919971120444">+91 9971-120-444</a></p>
+          <p><strong>Mobile:</strong> <a href="tel:+919643121121">+91 9643-121-121</a></p>
           <p><strong>Email:</strong> <a href="info@thepropertiesbuilders.in">info@thepropertiesbuilders.in</a></p>
           <div className="social-media">
             <h3>Follow Us</h3>
-            <a href="https://facebook.com" target="_blank" rel="noopener noreferrer">Facebook</a>
-            <a href="https://twitter.com" target="_blank" rel="noopener noreferrer">Twitter</a>
-            <a href="https://instagram.com" target="_blank" rel="noopener noreferrer">Instagram</a>
+            <a href="https://www.facebook.com/people/THE-PROPERTIES-BUILDERS/100064257332051/?mibextid=LQQJ4d&rdid=ERuprXIKfOAVJH2H&share_url=https%3A%2F%2Fwww.facebook.com%2Fshare%2FmMdX1SJhb4JBseQu%2F%3Fmibextid%3DLQQJ4d" target="_blank" rel="noopener noreferrer">Facebook</a>
+            <a href="https://www.instagram.com/the_properties_/" target="_blank" rel="noopener noreferrer">Instagram</a>
+            <a href="https://www.youtube.com/@thepropertiesbuilders/featured" target="_blank" rel="noopener noreferrer">Youtube</a>
           </div>
         </div>
       </div>

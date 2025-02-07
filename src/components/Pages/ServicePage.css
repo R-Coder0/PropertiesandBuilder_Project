@@ -69,19 +69,18 @@
 }
 
 .service-item-button {
-  background-color: #38ada9;
+  background-color: #D8232A;
   color: #fff;
-  border: none;
   padding: 12px 20px;
   font-size: 1rem;
   cursor: pointer;
   outline: none;
-  border-radius: 5px;
+  border: 1px solid #D8232A;
   transition: background-color 0.3s ease, transform 0.2s ease;
   align-self: flex-start;
 }
 
 .service-item-button:hover {
-  background-color: #2c7a78;
+  background-color: transparent;
   transform: scale(1.05);
 }

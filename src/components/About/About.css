@@ -145,16 +145,15 @@
   margin: 5px 0 0;
 }
 
-section {
+/* section {
   margin-bottom: 40px;
-}
+} */
 
 h2 {
-  font-size: 2.5rem;
   color: #333;
   margin-bottom: 20px;
   position: relative;
-  text-align: center;
+  text-align: left;
 }
 
 p {
@@ -209,7 +208,7 @@ p {
   justify-content: space-around;
   margin-top: 50px;
   padding: 20px 0;
-  background-color: #38ada999; /* Light pink background */
+  background-color: #914F1E; /* Light pink background */
   border-radius: 10px;
   box-shadow: 0 4px 8px rgba(10, 5, 8, 0.2);
 }
@@ -229,7 +228,7 @@ p {
 
 .stat p {
   font-size: 1rem;
-  color: #38ADA9; /* Consistent accent color */
+  color: #914F1E; /* Consistent accent color */
 }
 
 .approach-section {
@@ -255,12 +254,12 @@ p {
   font-style: italic;
   color: #666;
   margin-bottom: 20px;
-  border-left: 5px solid #38ADA9;
+  border-left: 5px solid #F7DCB9;
   padding-left: 15px;
 }
 
 .approach-content .highlight {
-  background: #38ADA9; /* Light highlight background */
+  background: #914F1E; /* Light highlight background */
   padding: 10px 15px;
   border-radius: 5px;
   margin-bottom: 20px;
@@ -393,7 +392,7 @@ p {
   }
 
   .approach-content .highlight {
-    background: #38ADA9; /* Light highlight */
+    background: #914F1E; /* Light highlight */
     padding: 10px;
     border-radius: 5px; /* Rounded corners */
     margin-bottom: 15px; /* Add spacing */
@@ -435,7 +434,7 @@ p {
     height: auto;
     width: 100%;
     border-radius: 10px;
-    margin-top: 10px;
+    margin-top: 30px;
   }
 
   .story-content h2 {
@@ -506,7 +505,7 @@ p {
   }
 
   .approach-content .highlight {
-    background: #38ADA9; /* Light highlight */
+    background: #914F1E; /* Light highlight */
     padding: 10px;
     border-radius: 5px; /* Rounded corners */
     margin-bottom: 15px; /* Add spacing */

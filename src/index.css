@@ -1,9 +1,7 @@
-/* index.css or App.css */
-
-/* General styling */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 body {
-  font-family: 'Arial', sans-serif;
-  background: linear-gradient(to bottom right, #ffffff, #f0f2f5); /* Light gradient background */
+  font-family: "Montserrat", serif;
+  /* background: linear-gradient(to bottom right, #242424, #f0f2f5);  */
   color: #ffffff;
   margin: 0;
   padding: 0;
@@ -22,9 +20,14 @@ body::before {
   background: radial-gradient(circle, transparent, rgba(255, 255, 255, 0.982));
   z-index: -1;
 }
+button{
+  font-family: "Montserrat", serif;
+  background-color: #D8232A;
+}
 
 /* Title styling */
 h1, h2, h3, h4, h5, h6 {
-  color:#38ada9;
+  color:#914F1E;
+  font-family: "Montserrat", serif;
 }
 

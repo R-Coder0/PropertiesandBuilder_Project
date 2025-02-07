@@ -2,9 +2,10 @@ import React from 'react';
 import CountUp from 'react-countup';
 import './About.css';
 import slideImage from '../../assets/aboutus.jpg';
-import storyImage from '../../assets/Services/investment advisory.jpg'; 
+import storyImage from '../../assets/pics/Gallery9.jpg'; 
 import missionIcon from '../../assets/missionIcon.png'; 
 import visionIcon from '../../assets/vissionIcon.png'; 
+import team from '../../assets/profile.jpg'
 
 const AboutPage = () => {
   return (
@@ -61,13 +62,13 @@ const AboutPage = () => {
           <h2>Meet the Team</h2>
           <div className="team-members">
             <div className="team-member">
-              <p>Role: [Role]</p>
-              <img src="path_to_image" alt="Team Member" />
+              <img src={team} alt="Team Member" />
               <h3>Team Member Name</h3>
+              <p>Role: [Role]</p>
               <p>Background: [Background]</p>
             </div>
             <div className="team-member">
-              <img src={storyImage} alt="Team Member" />
+              <img src={team} alt="Team Member" />
               <h3>Team Member Name</h3>
               <p>Role: [Role]</p>
               <p>Background: [Background]</p>

@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
-import logo from '../../assets/PBlogo.png'; // Adjust the path based on your project structure
+import logo from '../../assets/logo.png'; // Adjust the path based on your project structure
 import './NavBar.css';
 
 const NavBar = () => {
@@ -45,12 +45,19 @@ const NavBar = () => {
           <Link to="/gallery" className="nav-link" onClick={closeMenu}>Gallery</Link>
         </li>
         <li className="nav-item">
-          <Link to="/about" className="nav-link" onClick={closeMenu}>About</Link>
+          <Link to="/about" className="nav-link" onClick={closeMenu}>About Deep Vihar</Link>
+        </li>
+        <li className="nav-item">
+          <Link to="/about" className="nav-link" onClick={closeMenu}>Properties</Link>
         </li>
         <li className="nav-item">
           <Link to="/contact" className="nav-link" onClick={closeMenu}>Contact Us</Link>
         </li>
       </ul>
+        <button
+        className='nav-items' onClick={closeMenu} >
+          Enquire Now
+        </button>
     </nav>
   );
 };

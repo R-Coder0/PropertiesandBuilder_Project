@@ -8,13 +8,12 @@ import Footer from './Footer/footer';
 import Gallery from './components/Gallery/Gallery';
 import AboutPage from './components/About/About';
 import ContactPage from './components/Contact/Contact';
-import TopBar from './components/NavBar/Topbar';
+import FloatingButtons from './components/FloatingButtons/FloatingButtons';
 
 const App = () => {
   return (
     <AuthProvider>
       <Router>
-        <TopBar/>
         <NavBar />
         <Routes>
           <Route path="/" element={<Home />} />
@@ -24,6 +23,7 @@ const App = () => {
           <Route path="/Contact" element={<ContactPage />} />
           <Route path="*" element={<Navigate to="/" />} />
         </Routes>
+        <FloatingButtons/>
         <Footer/>
       </Router>
     </AuthProvider>

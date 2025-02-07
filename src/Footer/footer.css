@@ -1,7 +1,7 @@
 /* footer.css */
 
 .footer {
-  background-color: #333;
+  background-color: #261507;
   color: #fff;
   padding: 50px 0;
   margin-top: 20px;
@@ -44,11 +44,11 @@
 }
 
 .footer-section a:hover {
-  color: #38ada9;
+  color: #B5C18E;
 }
 
 .footer-bottom {
-  background-color: #555;
+  background-color: #914F1E;
   padding: 10px 0;
 }
 
@@ -64,7 +64,7 @@
 }
 
 .social-icons a:hover {
-  color: #38ada9;
+  color: #B5C18E;
 }
 p {
   font-size: 1.2rem;
